@@ -171,9 +171,7 @@ while True:
         break
     else:
         print("Opção inválida. Tente novamente.")
-
-# RELATÓRIO FINAL DO PEDIDO
-total = preco_hamburguer + preco_acomp + preco_bebida
+total = preco_hamburguer + preco_acomp + preco_bebi
 
 print()
 print("=========== RELATÓRIO FINAL DO PEDIDO ===========")
@@ -189,6 +187,7 @@ print(f"VALOR TOTAL DO PEDIDO: R$ {total:.2f}")
 print("Pedido registrado com sucesso.")
 print("Agradecemos pela preferência.")
 print("=================================================")
+
 
 
 
